@@ -1,5 +1,5 @@
 # worldTimeFamily
-A single page web app built with React.js that shows the local time for where I have family members around the world. 
+A single page web app built with React.js that shows the local time for where family members live around the world. 
 Also shows the users local time so they can compare
 
 
