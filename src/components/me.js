@@ -14,8 +14,8 @@ class Maine extends React.Component {
 
         return (
             <div className="maine">
-            <h3>Maine</h3>
-            <p>{finalTimeME}</p>
+            <h3 className = "location">Maine</h3>
+            <p className="theTime">{finalTimeME}</p>
             </div>
         )
     }
