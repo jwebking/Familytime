@@ -5,7 +5,7 @@ import Minnesota from './components/mn';
 import Alberta from './components/ab';
 import BritishColumbia from './components/bc';
 import FormattedTime from './components/localtime';
-
+import './index.css';
 
 
 
@@ -34,7 +34,7 @@ class Clock extends React.Component {
   render() {
     return (
       <div>
-        <h1>Family Time</h1>
+        <h1 className="familyTime">Family Time</h1>
         <div className="local">
           <FormattedTime />
         </div>
