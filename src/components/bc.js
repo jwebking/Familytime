@@ -13,8 +13,8 @@ class BritishColumbia extends React.Component {
 
         return (
             <div className="britishcolumbia">
-                <h3>British Columbia</h3>
-                <p>{finalTimeBC}</p>
+                <h3 className = "location">British Columbia</h3>
+                <p className="theTime">{finalTimeBC}</p>
             </div>
         )
     }
