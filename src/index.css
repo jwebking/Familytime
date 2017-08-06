@@ -1,3 +1,30 @@
-body {
-    background: blue;
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
+html {
+    background: linear-gradient(90deg, #125C66, #069954);
+    font-family: 'Saira', sans-serif;
+}
+
+
+#root {
+    text-align: center;
+}
+
+.theTime{
+    color:white;
+}
+
+.location {
+    font-size: 19px;
+}
+
+.britishcolumbia {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.familyTime {
+    font-size: 30px;
+    
 }
