@@ -13,12 +13,11 @@ class Minnesota extends React.Component {
 
         return (
             <div className="minnesota">
-                <h3>Minnesota</h3>
-                <p>{finalTimeMN}</p>
+                <h3 className = "location">Minnesota</h3>
+                <p className="theTime">{finalTimeMN}</p>
             </div>
         )
     }
 }
 
 export default Minnesota
-
