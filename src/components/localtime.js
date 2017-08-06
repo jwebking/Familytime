@@ -4,8 +4,8 @@ function FormattedDate() {
   const d = new Date();
   return (
     <div className="local">
-      <h4>It is currently {d.toLocaleTimeString()} where YOU live</h4>
-      <br />
+      <h3 className = "location">Here is the time where YOU live</h3>
+      <p className="theTime"> {d.toLocaleTimeString()} </p>
     </div>
   )
 }
