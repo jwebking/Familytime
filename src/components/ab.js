@@ -13,8 +13,8 @@ class Alberta extends React.Component {
 
         return (
             <div className="alberta">
-                <h3>Alberta</h3>
-                <p>{finalTimeAB}</p>
+                <h3 className = "location">Alberta</h3>
+                <p className="theTime">{finalTimeAB}</p>
             </div>
         )
     }
