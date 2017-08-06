@@ -14,8 +14,8 @@ class Washington extends React.Component {
 
         return (
             <div className="washington">
-            <h3>Washington</h3>
-            <p>{finalTimeWA}</p>
+            <h3 className = "location">Washington</h3>
+            <p className="theTime">{finalTimeWA}</p>
             </div>
         )
     }
